@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicinal Plants with 3D View</title>
+  <link href="styles.css" rel="stylesheet"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text-center my-4">Different Plants with 3D View</h1>
+
+    <!-- Filter Buttons -->
+    <div class="text-center filter-btns">
+      <button class="btn btn-primary" onclick="filterPlants('all')">Show All</button>
+      <button class="btn btn-success" onclick="filterPlants('herb')">Herbs</button>
+      <button class="btn btn-warning" onclick="filterPlants('Herb')">Shrubs</button>
+      <button class="btn btn-info" onclick="filterPlants('tree')">Trees</button>
+    </div>
+
+      <!-- Plants Section -->
+      <!-- Plant 2:Coriander(Herb) -->
+      <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/coriander.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Coriander</h3>
+        <p><strong>Type:</strong> Herb</p>
+       
+        <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-14 122412.gif" height="140" width="140" >
+        
+        </video>
+      </div>
+
+      <!-- Plant 3: Neem (Tree) -->
+      <div class="col-md-4 plant-card tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/neem.jpg" alt="Neem Image" class="img-fluid">
+        </div>
+        <h3>Neem</h3>
+        <p><strong>Type:</strong> Tree</p>
+       
+        <video width="300" controls>
+          <source src="/3d description of plants/videos&gif/WhatsApp Video 2024-09-14 at 3.31.44 AM.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+       <!-- Plant 4: Amla (Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/amla.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Amla</h3>
+        <p><strong>Type:</strong> Herb</p>
+       <img src="/3d description of plants/videos&gif/amla.gif" height="140" width="140">
+      </div>
+
+       <!-- Plant 5: Aloevera(Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/aloevera.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Aloevera</h3>
+        <p><strong>Type:</strong> Herb</p>
+       
+        <video width="300" controls>
+          <source src="/3d description of plants/videos&gif/WhatsApp Video 2024-09-14 at 3.29.36 AM.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+       <!-- Plant 6: Bael(Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/beal.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Bael</h3>
+        <p><strong>Type:</strong> Tree</p>
+       
+        <video width="230" height="180"controls>
+          <source src="/3d description of plants/videos&gif/WhatsApp Video 2024-09-14 at 12.51.10 PM.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+       <!-- Plant 7: Tulip (Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/tulip tree.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Tulip</h3>
+        <p><strong>Type:</strong> Tree</p>
+       
+        <img src="/3d description of plants/videos&gif/tulip tree.gif" alt="Tulip gif" class="img-fluid" height="200" width="200" >
+      
+        </video>
+      </div>
+
+    <div class="row">
+      <!-- Plant 1: Tulsi (Herb) -->
+      <div class="col-md-4 plant-card herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/tulsi.jpg" alt="Tulsi Image" class="img-fluid">
+        </div>
+        <h3>Tulsi</h3>
+        <p><strong>Type:</strong> Herb</p>
+      </div>
+
+
+      
+       <!-- Plant 21:Turmeric(Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/moringa.jpg" alt="moringa Image" class="img-fluid">
+        </div>
+        <h3>Turmeric</h3>
+        <p><strong>Type:</strong>Herb</p>
+      </div>
+
+       <!-- Plant 8: Babool (Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/babool.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Babool</h3>
+        <p><strong>Type:</strong> Tree</p>
+      </div>
+
+       <!-- Plant 9: kokum (Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/kokum.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Kokum</h3>
+        <p><strong>Type:</strong> Herb</p>
+      </div>
+
+       <!-- Plant 10:Henna(Shrub) -->
+       <div class="col-md-4 plant-card Shrub">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/henna.jpg" alt="Henna Image" class="img-fluid">
+        </div>
+        <h3>Henna</h3>
+        <p><strong>Type:</strong> Shrub</p>
+      </div>
+
+       <!-- Plant 11: Chamomile(Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/chamomile.jpg" alt="Chamomile Image" class="img-fluid">
+        </div>
+        <h3>Chamomile</h3>
+        <p><strong>Type:</strong> Herb</p>
+        <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-14 131749.gif" alt="Chamomile gif" height="128" width="150">
+      </div>
+
+       <!-- Plant 12:Ashwagandha(Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/ashwagandha.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Ashwagandha</h3>
+        <p><strong>Type:</strong> Herb</p>
+          <img src="/3d description of plants/videos&gif/winter cherry(ashwagandha).gif" alt="ashwagandha 3D" width="130" height="130">
+        </video>
+      </div>
+
+       <!-- Plant 13:Thyme(Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/thyme.jpg" alt="ashwagandha Image" class="img-fluid">
+        </div>
+        <h3>Thyme</h3>
+        <p><strong>Type:</strong> Herb</p>
+        <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-15 175332 (1).gif" height="130" width="140">
+      </div>
+
+       <!-- Plant 14:Chirpine (Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/chirpine tree.jpg" alt="Chirpine treeImage" class="img-fluid">
+        </div>
+        <h3>Chirpine Tree</h3>
+        <p><strong>Type:</strong> Tree</p>
+          <img src="/3d description of plants/videos&gif/chir pine.gif" height="140" width="140" >
+      </div>
+
+       <!-- Plant 15:Horsetail(Shrub) -->
+       <div class="col-md-4 plant-card Shrub">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/horsetail.jpg" alt="horsetail Image" class="img-fluid">
+        </div>
+        <h3>Horsetail</h3>
+        <p><strong>Type:</strong>Shrub</p>
+          <img src="/3d description of plants/videos&gif/horsetail.gif" height="140" width="140">
+  
+      </div>
+
+       <!-- Plant 16:Lavender(Shrub) -->
+       <div class="col-md-4 plant-card Shrub">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/lavender shrub.jpg" alt="lavender Image" class="img-fluid">
+        </div>
+        <h3>Lavender</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/lavender.gif" height="140" width="140">
+      </div>
+
+       <!-- Plant 17:Barberry(Shrub) -->
+       <div class="col-md-4 plant-card Shrub">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/barberry shrub.jpg" alt="barberry Image" class="img-fluid">
+        </div>
+        <h3>Barberry</h3>
+        <p><strong>Type:</strong>Shrub</p>
+          <img src="/3d description of plants/videos&gif/barberry.gif" height="140" width="140">
+      </div>
+
+       <!-- Plant 18:Mint(Pudina)(Shrub) -->
+       <div class="col-md-4 plant-card Shrub">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/Fenugreek.jpg" alt="pudina Image" class="img-fluid">
+        </div>
+        <h3>Pudina</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/pudina (mint).gif" height="140" width="140" >
+      </div>
+
+       <!-- Plant 19:Moringa(Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/moringa.jpg" alt="moringa Image" class="img-fluid" height="80">
+        </div>
+        <h3>Moringa</h3>
+        <p><strong>Type:</strong>Tree</p>
+          <img src="/3d description of plants/videos&gif/moringa.gif" width="100" heigth="90" >
+      </div>
+
+      <!-- Plant 20:Bitter Gourd(Herb) -->
+      <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/bitter gourd.jpg" alt="bittergourd Image" class="img-fluid">
+        </div>
+        <h3>Bitter Gourd</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-15 175537.gif" height="140" width="140" >
+      </div>
+
+       <!-- Plant 22:Hibiscus(Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/moringa.jpg" alt="moringa Image" class="img-fluid">
+        </div>
+        <h3>Hibiscus</h3>
+        <p><strong>Type:</strong>Tree</p>
+        <video width="300" controls>
+          <source src="/3d description of plants/videos&gif/WhatsApp Video 2024-09-14 at 2.48.02 AM.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+       <!-- Plant 23:Kadam(Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/kadam.jpg" alt="kadam Image" class="img-fluid">
+        </div>
+        <h3>Kadam</h3>
+        <p><strong>Type:</strong> Tree</p>
+          <img src="/3d description of plants/videos&gif/kadam.gif" height="140" width="140" >
+      </div>
+
+       <!-- Plant 24:Tamarind (Tree) -->
+       <div class="col-md-4 plant-card Tree">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/tamarind.jpg" alt="tamarindImage" class="img-fluid">
+        </div>
+        <h3>Tamarind</h3>
+        <p><strong>Type:</strong> Tree</p>
+          <img src="/3d description of plants/videos&gif/tamarind.gif" height="140" width="140" >
+      </div>
+
+      <!-- Plant 25:Rosemary (Shrub) -->
+      <div class="col-md-4 plant-card Shrub">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/tamarind.jpg" alt="rosemary Image" class="img-fluid">
+        </div>
+        <h3>Rosemary</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-15 181342.gif" height="140" width="140" >
+      </div>
+
+      <!-- Plant 26:Dandelion (Herb) -->
+      <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/dandelion.jpg" alt="dandelion Image" class="img-fluid">
+        </div>
+        <h3>Dandelion</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-14 130551.gif" height="140" width="140" >
+      </div>
+
+       <!-- Plant 27: Spearmint(Herb) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/spearmint.jpg" alt="dandelion Image" class="img-fluid">
+        </div>
+        <h3>Spearmint</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/Screen Recording 2024-09-15 175932.gif" height="140" width="140" >
+      </div>
+
+       <!-- Plant 28: Banaya(Tree) -->
+       <div class="col-md-4 plant-card Herb">
+        <div class="plant-image">
+          <img src="/3d description of plants/images/banyan.jpg" alt="banyan Image" class="img-fluid">
+        </div>
+        <h3>Banyan</h3>
+        <p><strong>Type:</strong> Shrub</p>
+          <img src="/3d description of plants/videos&gif/banyan tree.gif" height="140" width="140" >
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script> <!-- Link to the JavaScript file -->
+
+</body>
+</html>
